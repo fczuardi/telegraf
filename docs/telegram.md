@@ -349,6 +349,8 @@ Sends document.
 | doc | `File` | Document |
 | [extra] | `object` | [Extra parameters](https://core.telegram.org/bots/api#senddocument)|
 
+(doc is something like ```{ source: '/path/to/your/file' }``` )
+
 ### sendLocation
 
 Sends location.
